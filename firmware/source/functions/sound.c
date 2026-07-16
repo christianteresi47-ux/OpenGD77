@@ -87,7 +87,7 @@ const int melody_sk2_beep[] = { 494, 60, 0, 60, 494, 60, -1, -1 };
 const int melody_orange_beep[] = { 440, 60, 494, 60, 440, 60, 494, 60, -1, -1 };
 */
 const int MELODY_ACK_BEEP[] = { 440, 120, 660, 120, 880, 120, -1, -1 };
-const int MELODY_NACK_BEEP[] = { 494, 120, 466, 120, -1, -1 };
+const int MELODY_NACK_BEEP[] = { 494, 120, 466, 121, -1, -1 }; 
 const int MELODY_ERROR_BEEP[] = { 440, 30, 0, 30, 440, 30, 0, 30, 440, 30, -1, -1 };
 const int MELODY_TX_TIMEOUT_BEEP[] = { 440, 60, 494, 60, 440, 60, 494, 60, 440, 60, 494, 60, 440, 60, 494, 60, -1, -1 };
 const int MELODY_DMR_TX_START_BEEP[] = { 1060, 70, 1270, 1400, 70, -1, -1 };
