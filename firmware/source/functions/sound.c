@@ -90,8 +90,8 @@ const int MELODY_ACK_BEEP[] = { 440, 120, 660, 120, 880, 120, -1, -1 };
 const int MELODY_NACK_BEEP[] = { 494, 120, 466, 120, -1, -1 };
 const int MELODY_ERROR_BEEP[] = { 440, 30, 0, 30, 440, 30, 0, 30, 440, 30, -1, -1 };
 const int MELODY_TX_TIMEOUT_BEEP[] = { 440, 60, 494, 60, 440, 60, 494, 60, 440, 60, 494, 60, 440, 60, 494, 60, -1, -1 };
-const int MELODY_DMR_TX_START_BEEP[] = { 800, 50, -1, -1 };
-const int MELODY_DMR_TX_STOP_BEEP[] = { 500, 50, -1, -1 };
+const int MELODY_DMR_TX_START_BEEP[] = { 1060, 70, 1270, 1400, 70, -1, -1 };
+const int MELODY_DMR_TX_STOP_BEEP[] = { 1530, 70, 1400, 45,-1, -1 };
 const int MELODY_KEY_BEEP_FIRST_ITEM[] = { 800, 100, -1, -1 };
 const int MELODY_LOW_BATTERY[] = { 440, 200, 415, 200, 392, 200,-1, -1 };
 
